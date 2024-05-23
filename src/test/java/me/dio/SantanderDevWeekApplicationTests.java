@@ -1,4 +1,4 @@
-package dio.me.santander_dev_week;
+package me.dio;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
