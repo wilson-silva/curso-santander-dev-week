@@ -1,10 +1,12 @@
 spring:
   datasource:
-    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
-    username: ${PGUSER}
-    password: ${PGPASSWORD}
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
   jpa:
+    generate-ddl: true
     open-in-view: false
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
+    show-sql: true
 
