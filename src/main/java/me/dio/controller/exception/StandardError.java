@@ -1,12 +1,14 @@
 package me.dio.controller.exception;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
+import lombok.experimental.SuperBuilder;
 
 import java.time.LocalDateTime;
 
-@Getter
-@AllArgsConstructor
+@Data
+@SuperBuilder
 public class StandardError {
 
     private LocalDateTime timestamp;
