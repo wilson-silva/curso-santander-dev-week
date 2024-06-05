@@ -41,4 +41,4 @@ classDiagram
     User "1" *-- "N" News
 ```
 
-Fazendo o deploy no site Render
+Esta API foi criada com o intuito de praticar o deploy da mesma em uma plataforma de nuvem (Render), fazendo o provisionamento do banco de dados (Postgres) também nesta plataforma, reforçando assim os conhecimentos do desenvolvimento de uma api e sobre o processo de Integraçao Contínua (CI) e Entrega Contínua (CD).
