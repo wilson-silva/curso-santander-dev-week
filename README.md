@@ -1,5 +1,5 @@
-# Santander Dev Week 2024
-Java RESTful API criada para a Santander Dev Week.
+# Santander Dev Week 2024.
+Projeto (Java RESTful API) criado no Bootcamp Santander 2024 para ser enviado (deploy) em uma plataforma de nuvem.
 
 ## Diagrama de classes
 
